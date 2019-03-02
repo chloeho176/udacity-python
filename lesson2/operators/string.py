@@ -6,5 +6,17 @@ def printFunction():
 
     print(first_word + second_word)
 
+    print(first_word * 5)
+
+    # " " - double quote
+    test = "hello chloe's teacher"
+    print test
+
+
+    # " " - single quote - use backslash \
+    test = 'hello chloe\'s teacher'
+    print test
+
+
 if __name__ == "__main__": 
     printFunction() 

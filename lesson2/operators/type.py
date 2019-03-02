@@ -6,6 +6,9 @@ def printFunction():
     print(type(5-3))
     print(type(2**2))
     print(type(2//2))
+    print(type(2))
+    print(type(2.))
+    print(type(2.0))
 
 
 if __name__ == "__main__": 

@@ -1,0 +1,235 @@
+    1  /Volumes/Install/Install.command ; exit;
+    2  vi 
+    3  vi test.py
+    4  python test.py 
+    5  vi test.py 
+    6  python test.py 
+    7  python --version 
+    8  python test.py 
+    9  vi test.py 
+   10  python test.py 
+   11  ls -alrth 
+   12  ls -larth
+   13  man ls
+   14  1
+   15  ls
+   16  ls -larth 
+   17  man ls
+   18  vi test.py 
+   19  file -I test.py 
+   20  uname -a
+   21  pwd
+   22  ls -alrth
+   23  mkdir ws
+   24  mv test.py ws/
+   25  cd ws/
+   26  mdkir python
+   27  mkdir python
+   28  mv test.py python/
+   29  cd python/
+   30  pwd
+   31  mkdir udacity
+   32  mv test.py udacity/
+   33  cd udacity/
+   34  mkdir lessor2
+   35  mv lessor2 lesson2
+   36  cd lesson2/
+   37  mkdir operators
+   38  ls
+   39  ls ../
+   40  mv ../test.py operators/
+   41  ls -alrth 
+   42  pwd
+   43  pwd
+   44  cd operators/
+   45  vi test.py 
+   46  mv test.py operator.py
+   47  python operator.py 
+   48  vi operator.py 
+   49  pwd
+   50  ls -alrth 
+   51  pwd
+   52  cd ../../
+   53  ls -alrh
+   54  pwd 
+   55  cd ../
+   56  mv udacity udacity-python
+   57  cd udacity-python/
+   58  ls -alrth 
+   59  cd lesson2/
+   60  ls -alarth 
+   61  cd operators/
+   62  ls
+   63  python operator.py 
+   64  ls -alrth 
+   65  git
+   66  git
+   67  pwd
+   68  ls -alrth 
+   69  cd ../
+   70  pwd
+   71  cd ../
+   72  pwd
+   73  git init
+   74  ls -alrth 
+   75  git status
+   76  touch hello
+   77  git status
+   78  rm hello 
+   79  ls -alrth 
+   80  git status
+   81  git add lesson2/operators/operator.py 
+   82  git status
+   83  touch hello
+   84  git status
+   85  rm hello 
+   86  git commit -a -m "My first program in python"
+   87  git status
+   88  git remote -v
+   89  git push origin
+   90  git push
+   91  pwd
+   92  git status
+   93  pwd
+   94  ls
+   95  touch lesson2/next-operator.py
+   96  git status
+   97  ls
+   98  cd ../
+   99  s
+  100  ls --alrth 
+  101  pwd
+  102  ls -alrth 
+  103  mkdir junk
+  104  cd junk/
+  105  ls -alrth 
+  106  git clone https://github.com/chloeho176/udacity-python.git
+  107  cd udacity-python/
+  108  git status
+  109  cd lesson2/
+  110  ls
+  111  rm next-operator.py 
+  112  ls -alrth 
+  113  git status
+  114  git add next-operator.py
+  115  git status
+  116  git remote -v
+  117  git push origin master
+  118  git config --global user.name "Chloe Ho"
+  119  git config --global user.name
+  120  git config --global user.name "chloeho176"
+  121  git config --global user.name
+  122  git config --global credential.helper store
+  123  git config --global user.password "your password"
+  124  git config --global user.password "Bangngan1995""
+cdc
+'
+"
+  125  git config --global user.password "Bangngan1995"
+  126  git push origin master
+  127  git status
+  128  git push origin master
+  129  git push origin
+  130  git branch
+  131  git status
+  132  git status
+  133  git remote -v
+  134  git branch
+  135  git push origin master
+  136  ls
+  137  cd operators/
+  138  ls
+  139  mv operator.py arithmetric.py
+  140  cp arithmetric.py type.py
+  141  vi type.py 
+  142  python type.py 
+  143  git status
+  144  git operator.py
+  145  git add operator.py
+  146  git add arithmetric.py 
+  147  git add type.py 
+  148  git status
+  149  git push origin master
+  150  git commit -a "Added type"
+  151  git commit -a -m "Added type"
+  152  git push origin master
+  153  vi type.py 
+  154  git status
+  155  git add type.py 
+  156  python type.py 
+  157  vi type.py 
+  158  python type.py 
+  159  git status
+  160  git add type.py 
+  161  git commit -a -m "float"
+  162  git push origin master
+  163  vi type.py 
+  164  vi type.py 
+  165  python type.py 
+  166  git add type.py 
+  167  git commit -a -m "type conversions"
+  168  git push origin master
+  169  vi type.py 
+  170  python type.py 
+  171  vi type.py 
+  172  python 15/4
+  173  python
+  174  vi type.py 
+  175  python type.py 
+  176  git add type.py 
+  177  git commit -a -m "fix issue"
+  178  git push origin master
+  179  pwd
+  180  cd ../../../
+  181  pwd
+  182  cd ../
+  183  rm junk/
+  184  ls -alrt
+  185  rm -rf junk/
+  186  ls
+  187  cd udacity-python/
+  188  git pull
+  189  pwd
+  190  git pull
+  191  git fetch
+  192  git status
+  193  ls
+  194  cd lesson2/
+  195  ls
+  196  cd operators/
+  197  ls
+  198  python comparision.py 
+  199  git status
+  200  git diff comparision.py 
+  201  git add comparision.py 
+  202  git status
+  203  pwd
+  204  cd ../../
+  205  ls -alh
+  206  vi .gitignore
+  207  git status
+  208  git add .gitignore 
+  209  cat .gitignore 
+  210  git status
+  211  git commit -a -m 
+  212  git commit -a -m 
+  213  git commit -a -m "comparision"
+  214  git push origin master
+  215  git status
+  216  git diff lesson2/operators/string.py 
+  217  git add  lesson2/operators/string.py 
+  218  git commit -a -m "string addition"
+  219  git push origin master 
+  220  git branch
+  221  python lesson2/operators/string.py 
+  222  python lesson2/operators/string.py 
+  223  python lesson2/operators/string.py 
+  224  python lesson2/operators/string.py 
+  225  gis status
+  226  git status
+  227  git diff lesson2/operators/string.py 
+  228  git add lesson2/operators/string.py 
+  229  git commit -a -m "hellothere"
+  230  git push origin master
+  231  history
+  232  history > history.txt

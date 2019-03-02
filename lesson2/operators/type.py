@@ -12,8 +12,8 @@ def printFunction():
     
     # comments - type conversions
     print(int(16/4))
-    print(float(15/4))
-    print(int(15/4))
+    print(float(15./4))
+    print(int(15./4))
 
 if __name__ == "__main__": 
     printFunction() 
